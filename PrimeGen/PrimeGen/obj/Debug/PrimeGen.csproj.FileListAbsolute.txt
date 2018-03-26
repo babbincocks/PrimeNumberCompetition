@@ -1,0 +1,6 @@
+C:\Users\MTCStudent\Desktop\PrimeNumberCompetition\PrimeGen\PrimeGen\bin\Debug\PrimeGen.exe.config
+C:\Users\MTCStudent\Desktop\PrimeNumberCompetition\PrimeGen\PrimeGen\bin\Debug\PrimeGen.exe
+C:\Users\MTCStudent\Desktop\PrimeNumberCompetition\PrimeGen\PrimeGen\bin\Debug\PrimeGen.pdb
+C:\Users\MTCStudent\Desktop\PrimeNumberCompetition\PrimeGen\PrimeGen\obj\Debug\PrimeGen.csprojResolveAssemblyReference.cache
+C:\Users\MTCStudent\Desktop\PrimeNumberCompetition\PrimeGen\PrimeGen\obj\Debug\PrimeGen.exe
+C:\Users\MTCStudent\Desktop\PrimeNumberCompetition\PrimeGen\PrimeGen\obj\Debug\PrimeGen.pdb

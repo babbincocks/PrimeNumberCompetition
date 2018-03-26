@@ -11,9 +11,10 @@ namespace PrimeGen
     {
         static void Main(string[] args)
         {
+            
             try
             {
-                StreamWriter sw = new StreamWriter(@"C:\Users\Cyberadmin\Desktop\PrimeGenerator\Primes.txt");
+                //StreamWriter sw = new StreamWriter(@"C:\Users\Cyberadmin\Desktop\PrimeGenerator\Primes.txt");
 
                 int counter = 3;
                 bool prime = true;
@@ -27,32 +28,38 @@ namespace PrimeGen
                     {
 
 
+
+                        if (counter % divider == 0)
+                        {
+                            prime = false;
+                            break;
+
+                        }
+                        else divider = divider + 1;
+
                     }
-                    if (counter % divider == 0)
+
+                    if (prime == true)
                     {
-                        prime = false;
-                        break;
+                        //sw.WriteLine(counter);
+                        Console.WriteLine(counter);
 
                     }
-                    else divider = divider + 1;
+
+                    counter += 2;
+                    prime = true;
+
                 }
-
-                if (prime == true)
-                {
-                    sw.WriteLine(counter);
-                }
-
-                counter += 2;
-                prime = true;
-
-
 
             }
-            catch
+            catch (Exception ex)
             {
-                Console.WriteLine("Well, that's it.");
+                Console.WriteLine(ex);
                 Console.ReadLine();
             }
+
+            
+
         }
     }
 }
